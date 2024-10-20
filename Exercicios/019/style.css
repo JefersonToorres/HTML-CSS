@@ -1,0 +1,20 @@
+@charset "UFT-8";
+
+body{
+background-color: rgba(159, 207, 28, 0.616);
+font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    color: rgb(11, 69, 25);
+
+}
+h2{
+    color: rgb(98, 15, 15);
+}
+
+H1#Principal{
+    text-align: center;
+    background-color: chocolate;
+
+}

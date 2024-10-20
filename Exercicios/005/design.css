@@ -1,0 +1,30 @@
+/* styles.css */
+
+/* Estilos padrão (modo claro) */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+h1, p {
+    text-align: center;
+}
+
+/* Estilos para modo escuro */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+
+
+
+
+
+.centralizado {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-size: 24px;    /* Tamanho da fonte opcional */
+    margin: 20px;       /* Margem opcional para espaçamento */
+}
+

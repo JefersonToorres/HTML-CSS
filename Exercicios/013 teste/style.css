@@ -1,0 +1,10 @@
+.imagem-container {
+    display: flex; /* Usa Flexbox para layout das imagens */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    gap: 10px; /* Espaçamento entre as imagens */
+  }
+
+  .imagem-container img {
+    width: 200px; /* Define a largura das imagens */
+    height: auto; /* Mantém a proporção da imagem */
+  }
