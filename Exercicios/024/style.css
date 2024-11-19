@@ -18,9 +18,6 @@
     font-size: 1em;
 
 }
-h1{
-    text-align: center;
-}
 
 
 html, body{
@@ -28,6 +25,14 @@ html, body{
     min-height: 100vh;
     font-family: var(--fonte03);
 
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: var(--fonte03);
+    font-size: 35px;
 }
 
 header{
@@ -42,6 +47,7 @@ header>h1{
     text-transform: uppercase;
     font-family: var(--fonte02);
     font-size: 10vw;
+    text-align: center;
 
 }
 header> p{
