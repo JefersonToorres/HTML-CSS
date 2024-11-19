@@ -32,7 +32,7 @@ h1{
     background-color: black;
     color: white;
     font-family: var(--fonte03);
-    font-size: 35px;
+    font-size: 50px;
 }
 
 header{
@@ -73,21 +73,50 @@ section{
     font-size: 3.5vw;
 }
 
+section>p{
+    padding-bottom: 2em;
+
+}
+
 section.normal{
     background-color: white;
-    color: black;
+    color: rgb(12, 12, 12);
+
 }
 
 section.image {
-    background-color: rgb(70, 67, 67);
+    background-color: rgb(81, 78, 78);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.738);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+section.image>p{
     display: inline-block;
     padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px black;
+   
+
+}
+
+section#img01{
+    background-image: url(../Cordel/imagens/background001.jpg);
+    background-position:center right;
+
+}
+
+section#img02{
+    background-image: url(../Cordel/imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
 }
 
 section>image{
-    background-color: black;
-    width:400px;
+    background-color: rgb(17, 12, 12);
+    width: 500px;
     
 }
 
