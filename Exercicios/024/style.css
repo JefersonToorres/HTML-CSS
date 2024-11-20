@@ -20,9 +20,13 @@ td.dados{
     background-color: yellow;
 }
 
+.number{
+    text-align: right;
+}
+
 td{
     border: 1px solid black;
     padding: 8px;
     text-align: center;
-    vertical-align:top ;
-}
+     vertical-align:middle; /*Alinhamento vertical*/
+} 
