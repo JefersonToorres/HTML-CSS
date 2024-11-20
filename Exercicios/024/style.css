@@ -5,6 +5,8 @@ body{
 table{
     width: 400px;
     border-collapse: collapse ;
+    border: 5px solid red;
+    height: 400px;
 }
 /* tr{
     background-color: gray;
@@ -21,4 +23,6 @@ td.dados{
 td{
     border: 1px solid black;
     padding: 8px;
+    text-align: center;
+    vertical-align:top ;
 }
