@@ -3,5 +3,22 @@ body{
 }
 
 table{
-    border: 1px;
+    width: 400px;
+    border-collapse: collapse ;
+}
+/* tr{
+    background-color: gray;
+} */
+
+tr.linha{
+    background-color: gray;
+}
+
+td.dados{
+    background-color: yellow;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
 }
