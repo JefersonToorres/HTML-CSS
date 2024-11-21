@@ -4,6 +4,7 @@ body{
 
 table{
     width: 500px;
+    position: relative;
 }
 
 td, th{
@@ -20,4 +21,20 @@ td.num {
     text-align: right;
     color: rgba(23, 106, 4, 0.953);
     font-weight: bold;
+}
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+tbody> tr:nth-child(2n){
+    background-color: lightgray;
+
+}
+thead> tr>th{
+    position: sticky;
+    top: -0px;
+    background-color: gray;
 }
